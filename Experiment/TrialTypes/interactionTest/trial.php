@@ -1,6 +1,11 @@
 <?php
     $compTime = 5;        // time in seconds to use for 'computer' timing
     
+    //create an array for shuffling side effect answers:
+
+    $interaction_list = array("dry mouth", "itching", "cough", "trembling", "flushing", "fever", "bloating", "clumsiness", "nausea", "diarrhea", "arm pain");
+    shuffle($interaction_list);
+
     $imageFilePath = dirname($_SESSION['Trial Types'][$trialType]['trial']) . '/bottle.jpg';
     $answers = explode('|', $answer);
     $cues = explode('|', $cue);
@@ -67,7 +72,8 @@
         .foodName   {   margin-top: 15px;   text-align: center; font-size: 120%; }
     </style>
     
-    
+
+
     
     <div><?php echo $text; ?></div>
     
@@ -79,25 +85,15 @@
         <div class="sideEffect">
             <select name="Response">
                 <option disabled hidden selected></option>
-                <option>cough</option>
-                <option>itching</option>
-                <option>flushing</option>
-                <option>diarrhea</option>
-                <option>weight gain</option>
-                <option>skin rash</option>
-                <option>drowsiness</option>
-                <option>upset stomach</option>
-                <option>dry mouth</option>
-                <option>headache</option>
-                <option>heart attack</option>
-                <option>liver failure</option>
-                <option>internal bleeding</option>
-                <option>stroke</option>
-                <option>vomiting</option>
-            
+                    <?php
+                        for($ii = 0; $ii < count($interaction_list); $ii++) {
+                            echo "<option>" . $interaction_list[$ii] . "</option>";
+                        }
+                    ?>
             </select>
         </div>
     </div>
+
 
     <div class="precache textright">
         <input class="button button-trial-advance" id="FormSubmitButton" type="submit" value="Submit" disabled />
