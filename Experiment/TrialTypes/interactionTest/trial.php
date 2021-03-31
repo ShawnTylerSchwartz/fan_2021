@@ -3,7 +3,7 @@
     
     //create an array for shuffling side effect answers:
 
-    $interaction_list = array("dry mouth", "itching", "cough", "trembling", "flushing", "fever", "bloating", "clumsiness", "nausea", "diarrhea", "arm pain");
+    $interaction_list = array("dry mouth", "itching", "cough", "trembling", "flushing", "fever", "fatigue", "bloating", "clumsiness", "nausea", "diarrhea", "arm pain");
     shuffle($interaction_list);
 
     $imageFilePath = dirname($_SESSION['Trial Types'][$trialType]['trial']) . '/bottle.jpg';
