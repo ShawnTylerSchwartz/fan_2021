@@ -20,16 +20,16 @@
     
     echo "<div style='border: 3px solid black; width: 50%' padding-top: 10px; padding-bottom: 10px;>";
 
-    if($_SESSION['Position'] == 4) {
+    if($_SESSION['Position'] == 10) {
         $numItems = $totalNumItems;
         echo "<h4><strong>&nbsp;Trials remaining: " . $numItems . "</strong></h4>";
-    } elseif($_SESSION['Position'] == 30) {
+    } elseif($_SESSION['Position'] == 36) {
         $numItems = $totalNumItems;
         echo "<h4><strong>&nbsp;Trials remaining: " . $numItems . "</strong></h4>";
-    } elseif($_SESSION['Position'] == 56) {
+    } elseif($_SESSION['Position'] == 62) {
         $numItems = $totalNumItems;
         echo "<h4><strong>&nbsp;Trials remaining: " . $numItems . "</strong></h4>";
-     } elseif($_SESSION['Position'] == 82) {
+     } elseif($_SESSION['Position'] == 88) {
         $numItems = $totalNumItems;
         echo "<h4><strong>&nbsp;Trials remaining: " . $numItems . "</strong></h4>";
     } else {
