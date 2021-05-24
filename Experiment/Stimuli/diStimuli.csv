@@ -35,3 +35,8 @@ images/Bananas.png,Bananas,Consumable,2,Consumable
 images/Licorice.png,Licorice,Consumable,2,Consumable
 images/Grapefruit.png,Grapefruit,Consumable,2,Consumable
 images/Alcohol.png,Alcohol,Consumable,2,Consumable
+Cut,Cut,,,off
+Nickel,Nickel,,,off
+Cold,Cold,,,off
+Eat,Eat,,,off
+Fruit,Fruit,,,off

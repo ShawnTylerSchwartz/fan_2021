@@ -1,4 +1,10 @@
 Item,Trial Type,Timing,Post 1 Trial Type,Post 1 Timing ,Text,Settings,Combination,Combo_Code,Fan_Condition,Severity,Interaction,"AdvShuffle List; Target Severity, Interaction",Shuffle
+0,instruct,user,no ,User,<p> Please answer the following questions. </p>,,,,,,,,off
+38,botCheck,10,no ,User,Pencil is to write as scissors is to: |Write|Cut|Paper|Walk,,,,,,,,botcheck
+39,botCheck,10,no ,User,One is to penny as five is to:|Dime|Change|Nickel|Money,,,,,,,,botcheck
+40,botCheck,10,no ,User,Fire is to hot as ice is to:|Cold|Warm|Towel|Extinguish,,,,,,,,botcheck
+41,botCheck,10,no ,User,Thirsty is to drink as hungry is to:|Sip|Breakfast|Liquid|Eat,,,,,,,,botcheck
+42,botCheck,10,no ,User,Carrot is to vegetable as apple is to:|Fruit|Red|Slice|Pie,,,,,,,,botcheck
 0,instruct,user,no ,User,"<p> In this experiment, imagine that you are visiting your doctor's office. Your doctor is describing some interactions that may occur between medications that you're taking.</p> <p> A <i> medication interaction</i> occurs when one drug affects the activity of another drug when both are used together.</p>  <p>Please advance to see more instructions.</p>",,,,,,,,off
 0,instruct,user,no ,User,"<p>During this task, you will study several medication interactions, and your memory will later be tested. </p>
 <p>For each interaction that you study, you will see two medications and the outcome that would occur if they were to be taken together (e.g., ""dry mouth""). Each outcome will only occur once -- that is, only one pair of medications will result in dry mouth.  </p> <p>Please advance to see more instructions.</p>",,,,,,,,off
