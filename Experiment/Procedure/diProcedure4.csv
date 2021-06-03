@@ -1,119 +1,119 @@
-Item,Trial Type,Timing,Post 1 Trial Type,Post 1 Timing ,Text,Settings,Combination,Combo_Code,Fan_Condition,Severity,Interaction,"AdvShuffle List; Target Severity, Interaction",Shuffle
-0,instruct,user,no ,User,<p> Please answer the following questions. </p>,,,,,,,,off
-38,botCheck,10,no ,User,Pencil is to write as scissors is to: |Write|Cut|Paper|Walk,,,,,,,,botcheck
-39,botCheck,10,no ,User,One is to penny as five is to:|Dime|Change|Nickel|Money,,,,,,,,botcheck
-40,botCheck,10,no ,User,Fire is to hot as ice is to:|Cold|Warm|Towel|Extinguish,,,,,,,,botcheck
-41,botCheck,10,no ,User,Thirsty is to drink as hungry is to:|Sip|Breakfast|Liquid|Eat,,,,,,,,botcheck
-42,botCheck,10,no ,User,Carrot is to vegetable as apple is to:|Fruit|Red|Slice|Pie,,,,,,,,botcheck
-0,postBotCheck,user,no ,User,,,,,,,,,off
-0,instruct,user,no ,User,"<p> In this experiment, imagine that you are visiting your doctor's office. Your doctor is describing some interactions that may occur between medications that you're taking.</p> <p> A <i> medication interaction</i> occurs when one drug affects the activity of another drug when both are used together.</p>  <p>Please advance to see more instructions.</p>",,,,,,,,off
+Item,Trial Type,Timing,Post 1 Trial Type,Post 1 Timing ,Text,Settings,Botans,Combination,Combo_Code,Fan_Condition,Severity,Interaction,"AdvShuffle List; Target Severity, Interaction",Shuffle
+0,instruct,user,no ,User,<p> Please answer the following questions. </p>,,,,,,,,,off
+38,botCheck,10,no ,User,Pencil is to write as scissors is to: |Write|Cut|Paper|Walk,,Cut,,,,,,,botcheck
+39,botCheck,10,no ,User,One is to penny as five is to:|Dime|Change|Nickel|Money,,Nickel,,,,,,,botcheck
+40,botCheck,10,no ,User,Fire is to hot as ice is to:|Cold|Warm|Towel|Extinguish,,Cold,,,,,,,botcheck
+41,botCheck,10,no ,User,Thirsty is to drink as hungry is to:|Sip|Breakfast|Liquid|Eat,,Eat,,,,,,,botcheck
+42,botCheck,10,no ,User,Carrot is to vegetable as apple is to:|Fruit|Red|Slice|Pie,,Fruit,,,,,,,botcheck
+0,postBotCheck,user,no ,User,,,,,,,,,,off
+0,instruct,user,no ,User,"<p> In this experiment, imagine that you are visiting your doctor's office. Your doctor is describing some interactions that may occur between medications that you're taking.</p> <p> A <i> medication interaction</i> occurs when one drug affects the activity of another drug when both are used together.</p>  <p>Please advance to see more instructions.</p>",,,,,,,,,off
 0,instruct,user,no ,User,"<p>During this task, you will study several medication interactions, and your memory will later be tested. </p>
-<p>For each interaction that you study, you will see two medications and the outcome that would occur if they were to be taken together (e.g., ""dry mouth""). Each outcome will only occur once -- that is, only one pair of medications will result in dry mouth.  </p> <p>Please advance to see more instructions.</p>",,,,,,,,off
+<p>For each interaction that you study, you will see two medications and the outcome that would occur if they were to be taken together (e.g., ""dry mouth""). Each outcome will only occur once -- that is, only one pair of medications will result in dry mouth.  </p> <p>Please advance to see more instructions.</p>",,,,,,,,,off
 0,instruct,user,no ,User,"<p> Please remember as much information about the substances and their interactions as you can. Your memory will be tested for the health outcome that is associated with each pair of medications. For example, if you study ''Medication A + Medication B = cramping'', you will be presented with ''Medication A + Medication B'' and asked to recall ''cramping''.</p> 
-<p>When you're ready to begin the experiment, click ''Next.''</p>",,,,,,,,off
-"2,3",interaction,7,JOL1,7,,,"fake,fake",0,0,dry mouth,,1,study1
-"4,5",interaction,7,no ,User,,,"fake,fake",0,0,itching,,2,study1
-"6,17",interaction,7,no ,User,,,"fake,real",1,0,cough,,3,study1
-"7,18",interaction,7,JOL2,7,,,"fake,real",1,0,trembling,,4,study1
-"19,20",interaction,7,no ,User,,,"real,real",2,0,flushing,,5,study1
-"21,22",interaction,7,no ,User,,,"real,real",2,0,fever,,6,study1
-"8,9",interaction,7,JOL3,7,,,"fake,fake",0,1.1,fatigue,,7,study1
-"8,10",interaction,7,no ,User,,,"fake,fake",0,1.1,bloating,,8,study1
-"8,23",interaction,7,no ,User,,,"fake,real",1,1.1,clumsiness,,9,study1
-"24,25",interaction,7,no ,User,,,"real,real",2,1.2,nausea,,10,study1
-"24,26",interaction,7,no ,User,,,"real,real",2,1.2,diarrhea,,11,study1
-"24,11",interaction,7,no ,User,,,"real,fake",1,1.2,arm pain,,12,study1
-0,instruct,user,no ,User,<p> You will now be presented with each pair and asked to recall as many of the outcomes as you can.</p> <p>Please take as much time as you need. </p>,,,,,,,,off
-"2,3",interactionTest,user,no ,User,,,"fake,fake",0,0,dry mouth,,1,test1
-"4,5",interactionTest,user,no ,User,,,"fake,fake",0,0,itching,,2,test1
-"6,17",interactionTest,user,no ,User,,,"fake,real",1,0,cough,,3,test1
-"7,18",interactionTest,user,no ,User,,,"fake,real",1,0,trembling,,4,test1
-"19,20",interactionTest,user,no ,User,,,"real,real",2,0,flushing,,5,test1
-"21,22",interactionTest,user,no ,User,,,"real,real",2,0,fever,,6,test1
-"8,9",interactionTest,user,no ,User,,,"fake,fake",0,1.1,fatigue,,7,test1
-"8,10",interactionTest,user,no ,User,,,"fake,fake",0,1.1,bloating,,8,test1
-"8,23",interactionTest,user,no ,User,,,"fake,real",1,1.1,clumsiness,,9,test1
-"24,25",interactionTest,user,no ,User,,,"real,real",2,1.2,nausea,,10,test1
-"24,26",interactionTest,user,no ,User,,,"real,real",2,1.2,diarrhea,,11,test1
-"24,11",interactionTest,user,no ,User,,,"real,fake",1,1.2,arm pain,,12,test1
-0,instruct,user,no ,User,"<p> You will now see the same interactions again. Please remember as much information about them as you can. Your memory will be tested for the health outcome that is associated with each pair of medications. For example, if you study ''Medication A + Medication B = cramping'', you will be presented with ''Medication A + Medication B'' and asked to recall ''cramping''.</p>",,,,,,,,off
-"2,3",interaction,7,no ,User,,,"fake,fake",0,0,dry mouth,,1,study2
-"4,5",interaction,7,JOL1,7,,,"fake,fake",0,0,itching,,2,study2
-"6,17",interaction,7,no ,User,,,"fake,real",1,0,cough,,3,study2
-"7,18",interaction,7,no ,User,,,"fake,real",1,0,trembling,,4,study2
-"19,20",interaction,7,JOL2,7,,,"real,real",2,0,flushing,,5,study2
-"21,22",interaction,7,no ,User,,,"real,real",2,0,fever,,6,study2
-"8,9",interaction,7,no ,User,,,"fake,fake",0,1.1,fatigue,,7,study2
-"8,10",interaction,7,JOL3,7,,,"fake,fake",0,1.1,bloating,,8,study2
-"8,23",interaction,7,no ,User,,,"fake,real",1,1.1,clumsiness,,9,study2
-"24,25",interaction,7,no ,User,,,"real,real",2,1.2,nausea,,10,study2
-"24,26",interaction,7,no ,User,,,"real,real",2,1.2,diarrhea,,11,study2
-"24,11",interaction,7,no ,User,,,"real,fake",1,1.2,arm pain,,12,study2
-0,instruct,user,no ,User,<p> You will now be presented with each pair and asked to recall as many of the outcomes as you can.</p> <p>Please take as much time as you need. </p>,,,,,,,,off
-"2,3",interactionTest,user,no ,User,,,"fake,fake",0,0,dry mouth,,1,test2
-"4,5",interactionTest,user,no ,User,,,"fake,fake",0,0,itching,,2,test2
-"6,17",interactionTest,user,no ,User,,,"fake,real",1,0,cough,,3,test2
-"7,18",interactionTest,user,no ,User,,,"fake,real",1,0,trembling,,4,test2
-"19,20",interactionTest,user,no ,User,,,"real,real",2,0,flushing,,5,test2
-"21,22",interactionTest,user,no ,User,,,"real,real",2,0,fever,,6,test2
-"8,9",interactionTest,user,no ,User,,,"fake,fake",0,1.1,fatigue,,7,test2
-"8,10",interactionTest,user,no ,User,,,"fake,fake",0,1.1,bloating,,8,test2
-"8,23",interactionTest,user,no ,User,,,"fake,real",1,1.1,clumsiness,,9,test2
-"24,25",interactionTest,user,no ,User,,,"real,real",2,1.2,nausea,,10,test2
-"24,26",interactionTest,user,no ,User,,,"real,real",2,1.2,diarrhea,,11,test2
-"24,11",interactionTest,user,no ,User,,,"real,fake",1,1.2,arm pain,,12,test2
-0,instruct,user,no ,User,"<p> You will now see the same interactions again. Please remember as much information about them as you can. Your memory will be tested for the health outcome that is associated with each pair of medications. For example, if you study ''Medication A + Medication B = cramping'', you will be presented with ''Medication A + Medication B'' and asked to recall ''cramping''.</p>",,,,,,,,off
-"2,3",interaction,7,no ,User,,,"fake,fake",0,0,dry mouth,,1,study3
-"4,5",interaction,7,no ,User,,,"fake,fake",0,0,itching,,2,study3
-"6,17",interaction,7,JOL1,7,,,"fake,real",1,0,cough,,3,study3
-"7,18",interaction,7,no ,User,,,"fake,real",1,0,trembling,,4,study3
-"19,20",interaction,7,no ,User,,,"real,real",2,0,flushing,,5,study3
-"21,22",interaction,7,JOL2,7,,,"real,real",2,0,fever,,6,study3
-"8,9",interaction,7,no ,User,,,"fake,fake",0,1.1,fatigue,,7,study3
-"8,10",interaction,7,no ,User,,,"fake,fake",0,1.1,bloating,,8,study3
-"8,23",interaction,7,JOL3,7,,,"fake,real",1,1.1,clumsiness,,9,study3
-"24,25",interaction,7,no ,User,,,"real,real",2,1.2,nausea,,10,study3
-"24,26",interaction,7,no ,User,,,"real,real",2,1.2,diarrhea,,11,study3
-"24,11",interaction,7,no ,User,,,"real,fake",1,1.2,arm pain,,12,study3
-0,instruct,user,no ,User,<p> You will now be presented with each pair and asked to recall as many of the outcomes as you can.</p> <p>Please take as much time as you need. </p>,,,,,,,,off
-"2,3",interactionTest,user,no ,User,,,"fake,fake",0,0,dry mouth,,1,test3
-"4,5",interactionTest,user,no ,User,,,"fake,fake",0,0,itching,,2,test3
-"6,17",interactionTest,user,no ,User,,,"fake,real",1,0,cough,,3,test3
-"7,18",interactionTest,user,no ,User,,,"fake,real",1,0,trembling,,4,test3
-"19,20",interactionTest,user,no ,User,,,"real,real",2,0,flushing,,5,test3
-"21,22",interactionTest,user,no ,User,,,"real,real",2,0,fever,,6,test3
-"8,9",interactionTest,user,no ,User,,,"fake,fake",0,1.1,fatigue,,7,test3
-"8,10",interactionTest,user,no ,User,,,"fake,fake",0,1.1,bloating,,8,test3
-"8,23",interactionTest,user,no ,User,,,"fake,real",1,1.1,clumsiness,,9,test3
-"24,25",interactionTest,user,no ,User,,,"real,real",2,1.2,nausea,,10,test3
-"24,26",interactionTest,user,no ,User,,,"real,real",2,1.2,diarrhea,,11,test3
-"24,11",interactionTest,user,no ,User,,,"real,fake",1,1.2,arm pain,,12,test3
-0,instruct,user,no ,User,"<p> You will now see the same interactions again. Please remember as much information about them as you can. Your memory will be tested for the health outcome that is associated with each pair of medications. For example, if you study ''Medication A + Medication B = cramping'', you will be presented with ''Medication A + Medication B'' and asked to recall ''cramping''.</p>",,,,,,,,off
-"2,3",interaction,7,no ,User,,,"fake,fake",0,0,dry mouth,,1,study4
-"4,5",interaction,7,no ,User,,,"fake,fake",0,0,itching,,2,study4
-"6,17",interaction,7,no ,User,,,"fake,real",1,0,cough,,3,study4
-"7,18",interaction,7,JOL1,7,,,"fake,real",1,0,trembling,,4,study4
-"19,20",interaction,7,no ,User,,,"real,real",2,0,flushing,,5,study4
-"21,22",interaction,7,no ,User,,,"real,real",2,0,fever,,6,study4
-"8,9",interaction,7,JOL2,7,,,"fake,fake",0,1.1,fatigue,,7,study4
-"8,10",interaction,7,no ,User,,,"fake,fake",0,1.1,bloating,,8,study4
-"8,23",interaction,7,no ,User,,,"fake,real",1,1.1,clumsiness,,9,study4
-"24,25",interaction,7,JOL3,7,,,"real,real",2,1.2,nausea,,10,study4
-"24,26",interaction,7,no ,User,,,"real,real",2,1.2,diarrhea,,11,study4
-"24,11",interaction,7,no ,User,,,"real,fake",1,1.2,arm pain,,12,study4
-0,instruct,user,no ,User,<p> You will now be presented with each pair and asked to recall as many of the outcomes as you can.</p> <p>Please take as much time as you need. </p>,,,,,,,,off
-"2,3",interactionTest,user,no ,User,,,"fake,fake",0,0,dry mouth,,1,test4
-"4,5",interactionTest,user,no ,User,,,"fake,fake",0,0,itching,,2,test4
-"6,17",interactionTest,user,no ,User,,,"fake,real",1,0,cough,,3,test4
-"7,18",interactionTest,user,no ,User,,,"fake,real",1,0,trembling,,4,test4
-"19,20",interactionTest,user,no ,User,,,"real,real",2,0,flushing,,5,test4
-"21,22",interactionTest,user,no ,User,,,"real,real",2,0,fever,,6,test4
-"8,9",interactionTest,user,no ,User,,,"fake,fake",0,1.1,fatigue,,7,test4
-"8,10",interactionTest,user,no ,User,,,"fake,fake",0,1.1,bloating,,8,test4
-"8,23",interactionTest,user,no ,User,,,"fake,real",1,1.1,clumsiness,,9,test4
-"24,25",interactionTest,user,no ,User,,,"real,real",2,1.2,nausea,,10,test4
-"24,26",interactionTest,user,no ,User,,,"real,real",2,1.2,diarrhea,,11,test4
-"24,11",interactionTest,user,no ,User,,,"real,fake",1,1.2,arm pain,,12,test4
+<p>When you're ready to begin the experiment, click ''Next.''</p>",,,,,,,,,off
+"2,3",interaction,7,JOL1,7,,,,"fake,fake",0,0,dry mouth,,1,study1
+"4,5",interaction,7,no ,User,,,,"fake,fake",0,0,itching,,2,study1
+"6,17",interaction,7,no ,User,,,,"fake,real",1,0,cough,,3,study1
+"7,18",interaction,7,JOL2,7,,,,"fake,real",1,0,trembling,,4,study1
+"19,20",interaction,7,no ,User,,,,"real,real",2,0,flushing,,5,study1
+"21,22",interaction,7,no ,User,,,,"real,real",2,0,fever,,6,study1
+"8,9",interaction,7,JOL3,7,,,,"fake,fake",0,1.1,fatigue,,7,study1
+"8,10",interaction,7,no ,User,,,,"fake,fake",0,1.1,bloating,,8,study1
+"8,23",interaction,7,no ,User,,,,"fake,real",1,1.1,clumsiness,,9,study1
+"24,25",interaction,7,no ,User,,,,"real,real",2,1.2,nausea,,10,study1
+"24,26",interaction,7,no ,User,,,,"real,real",2,1.2,diarrhea,,11,study1
+"24,11",interaction,7,no ,User,,,,"real,fake",1,1.2,arm pain,,12,study1
+0,instruct,user,no ,User,<p> You will now be presented with each pair and asked to recall as many of the outcomes as you can.</p> <p>Please take as much time as you need. </p>,,,,,,,,,off
+"2,3",interactionTest,user,no ,User,,,,"fake,fake",0,0,dry mouth,,1,test1
+"4,5",interactionTest,user,no ,User,,,,"fake,fake",0,0,itching,,2,test1
+"6,17",interactionTest,user,no ,User,,,,"fake,real",1,0,cough,,3,test1
+"7,18",interactionTest,user,no ,User,,,,"fake,real",1,0,trembling,,4,test1
+"19,20",interactionTest,user,no ,User,,,,"real,real",2,0,flushing,,5,test1
+"21,22",interactionTest,user,no ,User,,,,"real,real",2,0,fever,,6,test1
+"8,9",interactionTest,user,no ,User,,,,"fake,fake",0,1.1,fatigue,,7,test1
+"8,10",interactionTest,user,no ,User,,,,"fake,fake",0,1.1,bloating,,8,test1
+"8,23",interactionTest,user,no ,User,,,,"fake,real",1,1.1,clumsiness,,9,test1
+"24,25",interactionTest,user,no ,User,,,,"real,real",2,1.2,nausea,,10,test1
+"24,26",interactionTest,user,no ,User,,,,"real,real",2,1.2,diarrhea,,11,test1
+"24,11",interactionTest,user,no ,User,,,,"real,fake",1,1.2,arm pain,,12,test1
+0,instruct,user,no ,User,"<p> You will now see the same interactions again. Please remember as much information about them as you can. Your memory will be tested for the health outcome that is associated with each pair of medications. For example, if you study ''Medication A + Medication B = cramping'', you will be presented with ''Medication A + Medication B'' and asked to recall ''cramping''.</p>",,,,,,,,,off
+"2,3",interaction,7,no ,User,,,,"fake,fake",0,0,dry mouth,,1,study2
+"4,5",interaction,7,JOL1,7,,,,"fake,fake",0,0,itching,,2,study2
+"6,17",interaction,7,no ,User,,,,"fake,real",1,0,cough,,3,study2
+"7,18",interaction,7,no ,User,,,,"fake,real",1,0,trembling,,4,study2
+"19,20",interaction,7,JOL2,7,,,,"real,real",2,0,flushing,,5,study2
+"21,22",interaction,7,no ,User,,,,"real,real",2,0,fever,,6,study2
+"8,9",interaction,7,no ,User,,,,"fake,fake",0,1.1,fatigue,,7,study2
+"8,10",interaction,7,JOL3,7,,,,"fake,fake",0,1.1,bloating,,8,study2
+"8,23",interaction,7,no ,User,,,,"fake,real",1,1.1,clumsiness,,9,study2
+"24,25",interaction,7,no ,User,,,,"real,real",2,1.2,nausea,,10,study2
+"24,26",interaction,7,no ,User,,,,"real,real",2,1.2,diarrhea,,11,study2
+"24,11",interaction,7,no ,User,,,,"real,fake",1,1.2,arm pain,,12,study2
+0,instruct,user,no ,User,<p> You will now be presented with each pair and asked to recall as many of the outcomes as you can.</p> <p>Please take as much time as you need. </p>,,,,,,,,,off
+"2,3",interactionTest,user,no ,User,,,,"fake,fake",0,0,dry mouth,,1,test2
+"4,5",interactionTest,user,no ,User,,,,"fake,fake",0,0,itching,,2,test2
+"6,17",interactionTest,user,no ,User,,,,"fake,real",1,0,cough,,3,test2
+"7,18",interactionTest,user,no ,User,,,,"fake,real",1,0,trembling,,4,test2
+"19,20",interactionTest,user,no ,User,,,,"real,real",2,0,flushing,,5,test2
+"21,22",interactionTest,user,no ,User,,,,"real,real",2,0,fever,,6,test2
+"8,9",interactionTest,user,no ,User,,,,"fake,fake",0,1.1,fatigue,,7,test2
+"8,10",interactionTest,user,no ,User,,,,"fake,fake",0,1.1,bloating,,8,test2
+"8,23",interactionTest,user,no ,User,,,,"fake,real",1,1.1,clumsiness,,9,test2
+"24,25",interactionTest,user,no ,User,,,,"real,real",2,1.2,nausea,,10,test2
+"24,26",interactionTest,user,no ,User,,,,"real,real",2,1.2,diarrhea,,11,test2
+"24,11",interactionTest,user,no ,User,,,,"real,fake",1,1.2,arm pain,,12,test2
+0,instruct,user,no ,User,"<p> You will now see the same interactions again. Please remember as much information about them as you can. Your memory will be tested for the health outcome that is associated with each pair of medications. For example, if you study ''Medication A + Medication B = cramping'', you will be presented with ''Medication A + Medication B'' and asked to recall ''cramping''.</p>",,,,,,,,,off
+"2,3",interaction,7,no ,User,,,,"fake,fake",0,0,dry mouth,,1,study3
+"4,5",interaction,7,no ,User,,,,"fake,fake",0,0,itching,,2,study3
+"6,17",interaction,7,JOL1,7,,,,"fake,real",1,0,cough,,3,study3
+"7,18",interaction,7,no ,User,,,,"fake,real",1,0,trembling,,4,study3
+"19,20",interaction,7,no ,User,,,,"real,real",2,0,flushing,,5,study3
+"21,22",interaction,7,JOL2,7,,,,"real,real",2,0,fever,,6,study3
+"8,9",interaction,7,no ,User,,,,"fake,fake",0,1.1,fatigue,,7,study3
+"8,10",interaction,7,no ,User,,,,"fake,fake",0,1.1,bloating,,8,study3
+"8,23",interaction,7,JOL3,7,,,,"fake,real",1,1.1,clumsiness,,9,study3
+"24,25",interaction,7,no ,User,,,,"real,real",2,1.2,nausea,,10,study3
+"24,26",interaction,7,no ,User,,,,"real,real",2,1.2,diarrhea,,11,study3
+"24,11",interaction,7,no ,User,,,,"real,fake",1,1.2,arm pain,,12,study3
+0,instruct,user,no ,User,<p> You will now be presented with each pair and asked to recall as many of the outcomes as you can.</p> <p>Please take as much time as you need. </p>,,,,,,,,,off
+"2,3",interactionTest,user,no ,User,,,,"fake,fake",0,0,dry mouth,,1,test3
+"4,5",interactionTest,user,no ,User,,,,"fake,fake",0,0,itching,,2,test3
+"6,17",interactionTest,user,no ,User,,,,"fake,real",1,0,cough,,3,test3
+"7,18",interactionTest,user,no ,User,,,,"fake,real",1,0,trembling,,4,test3
+"19,20",interactionTest,user,no ,User,,,,"real,real",2,0,flushing,,5,test3
+"21,22",interactionTest,user,no ,User,,,,"real,real",2,0,fever,,6,test3
+"8,9",interactionTest,user,no ,User,,,,"fake,fake",0,1.1,fatigue,,7,test3
+"8,10",interactionTest,user,no ,User,,,,"fake,fake",0,1.1,bloating,,8,test3
+"8,23",interactionTest,user,no ,User,,,,"fake,real",1,1.1,clumsiness,,9,test3
+"24,25",interactionTest,user,no ,User,,,,"real,real",2,1.2,nausea,,10,test3
+"24,26",interactionTest,user,no ,User,,,,"real,real",2,1.2,diarrhea,,11,test3
+"24,11",interactionTest,user,no ,User,,,,"real,fake",1,1.2,arm pain,,12,test3
+0,instruct,user,no ,User,"<p> You will now see the same interactions again. Please remember as much information about them as you can. Your memory will be tested for the health outcome that is associated with each pair of medications. For example, if you study ''Medication A + Medication B = cramping'', you will be presented with ''Medication A + Medication B'' and asked to recall ''cramping''.</p>",,,,,,,,,off
+"2,3",interaction,7,no ,User,,,,"fake,fake",0,0,dry mouth,,1,study4
+"4,5",interaction,7,no ,User,,,,"fake,fake",0,0,itching,,2,study4
+"6,17",interaction,7,no ,User,,,,"fake,real",1,0,cough,,3,study4
+"7,18",interaction,7,JOL1,7,,,,"fake,real",1,0,trembling,,4,study4
+"19,20",interaction,7,no ,User,,,,"real,real",2,0,flushing,,5,study4
+"21,22",interaction,7,no ,User,,,,"real,real",2,0,fever,,6,study4
+"8,9",interaction,7,JOL2,7,,,,"fake,fake",0,1.1,fatigue,,7,study4
+"8,10",interaction,7,no ,User,,,,"fake,fake",0,1.1,bloating,,8,study4
+"8,23",interaction,7,no ,User,,,,"fake,real",1,1.1,clumsiness,,9,study4
+"24,25",interaction,7,JOL3,7,,,,"real,real",2,1.2,nausea,,10,study4
+"24,26",interaction,7,no ,User,,,,"real,real",2,1.2,diarrhea,,11,study4
+"24,11",interaction,7,no ,User,,,,"real,fake",1,1.2,arm pain,,12,study4
+0,instruct,user,no ,User,<p> You will now be presented with each pair and asked to recall as many of the outcomes as you can.</p> <p>Please take as much time as you need. </p>,,,,,,,,,off
+"2,3",interactionTest,user,no ,User,,,,"fake,fake",0,0,dry mouth,,1,test4
+"4,5",interactionTest,user,no ,User,,,,"fake,fake",0,0,itching,,2,test4
+"6,17",interactionTest,user,no ,User,,,,"fake,real",1,0,cough,,3,test4
+"7,18",interactionTest,user,no ,User,,,,"fake,real",1,0,trembling,,4,test4
+"19,20",interactionTest,user,no ,User,,,,"real,real",2,0,flushing,,5,test4
+"21,22",interactionTest,user,no ,User,,,,"real,real",2,0,fever,,6,test4
+"8,9",interactionTest,user,no ,User,,,,"fake,fake",0,1.1,fatigue,,7,test4
+"8,10",interactionTest,user,no ,User,,,,"fake,fake",0,1.1,bloating,,8,test4
+"8,23",interactionTest,user,no ,User,,,,"fake,real",1,1.1,clumsiness,,9,test4
+"24,25",interactionTest,user,no ,User,,,,"real,real",2,1.2,nausea,,10,test4
+"24,26",interactionTest,user,no ,User,,,,"real,real",2,1.2,diarrhea,,11,test4
+"24,11",interactionTest,user,no ,User,,,,"real,fake",1,1.2,arm pain,,12,test4
 0,instruct,user,no ,User,"<p> Debrief: Some of the medications presented in this experiment do have real effects, but are not meant to serve as an informational or diagnostic tool. Some of the medications presented above are fictitious, and therefore do not actually have any effect. Please contact your own doctor if you have any questions regarding the side effects of your personal medication.</p> <p> The following medications you saw were fictitious: <br> Rolidal <br>
 Lipal <br>
 Pylacor <br>
@@ -128,4 +128,4 @@ Volexum <br>
 Tretonin <br>
 Dypraxa <br>
 Doloxan <br>
-Phedrazone <br>",,,,,,,,off
+Phedrazone <br>",,,,,,,,,off

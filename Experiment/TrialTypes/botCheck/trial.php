@@ -19,6 +19,8 @@
         $t = trim($t);
     }
     unset($t);
+
+    $cur_ans = $botans;
  ?>
     <style>
         label       { display: table-row; }
@@ -31,9 +33,12 @@
             <?php
                 echo array_shift($texts);
                 foreach ($texts as $txt) {
-                    ?><label><div><input type="radio" name="Response" value="<?= $txt ?>" /></div><div><?= $txt ?></div></label><?php
+                    ?><label><div><input type="radio" name="Response_Botcheck" value="<?= $txt ?>" /></div><div><?= $txt ?></div></label><?php
                 }
             ?>
+
+            <input type="hidden" name="bot_ans_correct" id="bot_ans_correct" value="<?php echo $cur_ans;?>" />
+
             <div><input class="button button-trial-advance" id="FormSubmitButton" type="submit" value="Submit" /></div>
         </div>
     </div>
